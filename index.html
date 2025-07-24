@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sabaody Web Design & Development - Creating beautiful, functional websites for businesses in Venda and beyond">
+    <meta name="keywords" content="web design, web development, Venda, South Africa, e-commerce, SEO">
+    <meta name="author" content="Sabaody Web Design">
+    <title>Sabaody | Web Design & Development</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container nav-container">
+            <div class="logo" onclick="scrollToTop()">
+                <div class="sabaody-logo">
+                    <div class="logo-text">Sabaody</div>
+                    <div class="tagline">Your Vision, Our Creation</div>
+                </div>
+            </div>
+            <div class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars" id="menuIcon"></i>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">What We Do</a></li>
+                    <li><a href="#about">Our Story</a></li>
+                    <li><a href="#portfolio">Our Work</a></li>
+                    <li><a href="#contact">Get in Touch</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="cta-button">Let's Chat</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Bringing Your Digital Dreams <span style="color: var(--secondary);">to Life</span></h1>
+                <p>Hey there! We're Sabaody, a passionate web design crew from Venda. We build websites that don't just look good—they actually work for your business. No corporate nonsense, just real results.</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="cta-button">See What We Offer</a>
+                    <a href="#portfolio" class="secondary-button">Check Our Work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Venda Heritage Section -->
+    <section class="venda-heritage">
+        <div class="venda-pattern"></div>
+        <div class="container venda-content">
+            <h2>Proudly Rooted in Venda</h2>
+            <p>We're not just another web agency. Born and raised right here in Venda, we bring that unique local flavor to everything we create. Think global standards with authentic Venda heart.</p>
+            <p>Our connection to the University of Venda community keeps us fresh and innovative—always pushing boundaries while staying true to our roots.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>What We're Good At</h2>
+                <p>Here's how we help businesses like yours succeed online</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Web Design That Wows</h3>
+                    <p>We design sites that grab attention and make your brand unforgettable. No cookie-cutter templates here.</p>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Smart Web Development</h3>
+                    <p>Building sites that work perfectly and grow with your business. Clean code, solid foundations.</p>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>E-Commerce That Sells</h3>
+                    <p>Online stores designed to turn browsers into buyers. We make shopping easy and enjoyable.</p>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>SEO That Gets Found</h3>
+                    <p>Get your business seen by the right people. We optimize sites so customers can actually find you.</p>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile-Friendly Magic</h3>
+                    <p>Your site looking great on every device? That's non-negotiable. We make sure of it.</p>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3>Ongoing Support</h3>
+                    <p>We stick around to keep your site fast, secure, and up-to-date. Consider us your tech partners.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image animate-on-scroll">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Sabaody Team working together" loading="lazy">
+                </div>
+                <div class="about-text animate-on-scroll">
+                    <h2>Our Story</h2>
+                    <p>Back in 2025, Vutivi and Masebola (that's us!) started Sabaody with one simple idea: websites should be beautiful AND actually work for your business. We were tired of seeing businesses get stuck with expensive, ineffective sites.</p>
+                    <p>Why "Sabaody"? It's from a legend about a paradise where people stay forever young. That's our goal—creating websites that feel fresh and relevant for years to come.</p>
+                    
+                    <h3 style="margin-top: 2rem; color: var(--primary);">The People Behind the Pixels</h3>
+                    <div class="founders">
+                        <div class="founder">
+                            <img src="ASSET/WhatsApp Image 2025-07-23 at 13.45.52_f74e1402.jpg" alt="Vutivi Nyathi" class="founder-image" loading="lazy">
+                            <h4>Vutivi Nyathi</h4>
+                            <p>Design Wizard & Co-Founder</p>
+                            <p class="founder-quote">"Good design isn't just pretty—it solves problems."</p>
+                        </div>
+                        <div class="founder">
+                            <img src="ASSET/WhatsApp Image 2025-07-24 at 09.40.17_1501515f.jpg" alt="Masebola Sikwivhilu" class="founder-image" loading="lazy">
+                            <h4>Masebola Sikhwivhilu</h4>
+                            <p>Tech Guru & Co-Founder</p>
+                            <p class="founder-quote">"If it doesn't work perfectly, it's not done."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="section" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>Stuff We've Built</h2>
+                <p>A few projects we're really proud of</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item animate-on-scroll">
+                    <img src="https://images.unsplash.com/photo-1463171379579-3fdfb86d6285?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="E-Commerce Website">
+                    <div class="portfolio-overlay">
+                        <h3>Luxe Boutique</h3>
+                        <p>Helped a local fashion brand triple online sales with a stunning e-commerce experience</p>
+                        <a href="#" class="secondary-button" style="margin-top: 15px;">See It Live</a>
+                    </div>
+                </div>
+                <div class="portfolio-item animate-on-scroll">
+                    <img src="https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Travel Website">
+                    <div class="portfolio-overlay">
+                        <h3>Wanderlust Travel</h3>
+                        <p>Created a travel platform that makes booking adventures as exciting as the trips themselves</p>
+                        <a href="#" class="secondary-button" style="margin-top: 15px;">See It Live</a>
+                    </div>
+                </div>
+                <div class="portfolio-item animate-on-scroll">
+                    <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80" alt="Restaurant Website">
+                    <div class="portfolio-overlay">
+                        <h3>Bistro Moderno</h3>
+                        <p>Designed a site that captures the vibe of a high-end restaurant and makes reservations a breeze</p>
+                        <a href="#" class="secondary-button" style="margin-top: 15px;">See It Live</a>
+                    </div>
+                </div>
+                <div class="portfolio-item animate-on-scroll">
+                    <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Fitness App">
+                    <div class="portfolio-overlay">
+                        <h3>FitLife Tracker</h3>
+                        <p>Built a fitness dashboard that works perfectly whether you're on a phone or desktop</p>
+                        <a href="#" class="secondary-button" style="margin-top: 15px;">See It Live</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Let's Make Something Awesome</h2>
+                <p>Got a project in mind? We'd love to hear about it</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-detail animate-on-scroll">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Where to Find Us</h4>
+                            <p>University of Venda Campus<br>Thohoyandou, Limpopo</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail animate-on-scroll">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Give Us a Ring</h4>
+                            <p>074 869 4801<br>081 596 8725</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail animate-on-scroll">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Shoot Us an Email</h4>
+                            <p>Sabaodyweb@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail animate-on-scroll">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>When We're Around</h4>
+                            <p>Monday - Friday: 9AM - 6PM<br>Saturday: 10AM - 4PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form animate-on-scroll">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" placeholder="What should we call you?" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" placeholder="Where should we reply?" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">What's This About?</label>
+                            <input type="text" id="subject" placeholder="New website? Project inquiry?" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Tell Us Everything</label>
+                            <textarea id="message" placeholder="What can we help you with?" required></textarea>
+                        </div>
+                        <button type="submit" class="cta-button">Send Message</button>
+                        <div class="form-success" id="formSuccess">
+                            <i class="fas fa-check-circle"></i> Got it! We'll be in touch soon.
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <div class="sabaody-logo" style="align-items: flex-start;">
+                            <div class="logo-text" style="color: white; -webkit-text-fill-color: white;">Sabaody</div>
+                            <div class="tagline" style="color: #bbb;">Your Vision, Our Creation</div>
+                        </div>
+                    </div>
+                    <p>We're passionate about building websites that actually work for your business. No fluff, just results.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Jumps</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">What We Do</a></li>
+                        <li><a href="#about">Our Story</a></li>
+                        <li><a href="#portfolio">Our Work</a></li>
+                        <li><a href="#contact">Get in Touch</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="#services">Web Design</a></li>
+                        <li><a href="#services">Web Development</a></li>
+                        <li><a href="#services">E-Commerce</a></li>
+                        <li><a href="#services">SEO Optimization</a></li>
+                        <li><a href="#services">Website Care</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Stay in the Loop</h4>
+                    <p>Get tips and updates (no spam, we promise)</p>
+                    <div class="form-group" style="margin-top: 1rem;">
+                        <input type="email" placeholder="Your Email Address" style="border-radius: 30px; padding: 0.8rem 1.5rem;">
+                        <button class="cta-button" style="width: 100%; margin-top: 0.8rem;">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Sabaody Web Design & Development. All Rights Reserved. Crafted with care by Vutivi & Masebola.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="apps.js"></script>
+</body>
+</html>
